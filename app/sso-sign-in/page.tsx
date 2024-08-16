@@ -28,7 +28,7 @@ export default function OauthSignIn() {
         identifier: email,
         strategy: "saml",
         redirectUrl: "/sso-callback",
-        redirectUrlComplete: "/protected",
+        redirectUrlComplete: "/dashboard",
       })
       .then((res) => {
         console.log(res);

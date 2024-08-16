@@ -19,7 +19,7 @@ export default function SignInPage() {
       <Card className="mx-auto max-w-md">
         <CardContent className="pt-4">
           <div className="grid gap-4">
-            <SignIn forceRedirectUrl={"/protected"} />
+            <SignIn forceRedirectUrl={"/dashboard"} />
 
             <Button variant={"secondary"} className="w-full" asChild>
               <Link href={"/sso-sign-in"}>Login with Enterprise SSO</Link>
