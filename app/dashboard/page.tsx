@@ -27,6 +27,7 @@ export default async function DashboardPage() {
                       organizationPreviewAvatarBox: "size-6",
                     },
                   }}
+                  afterCreateOrganizationUrl={"/dashboard"}
                 />
                 <UserButton
                   afterSignOutUrl="/"
